@@ -1,0 +1,44 @@
+#  Findings
+
+The assessment identified multiple security vulnerabilities within the OWASP Juice Shop application. Each finding was successfully validated through manual testing and documented with supporting evidence.
+
+| ID | Vulnerability | OWASP Category | Severity | Status |
+|----|---------------|----------------|----------|--------|
+| 01 | SQL Injection | A03:2021 – Injection | High | ✅ Completed |
+| 02 | Admin Registration | A01:2021 – Broken Access Control | High | ✅ Completed |
+| 03 | Misplaced Signature File | A05:2021 – Security Misconfiguration | Medium | ✅ Completed |
+| 04 | Poison Null Byte | A01:2021 – Broken Access Control | Medium | ✅ Completed |
+| 05 | Forgotten Sales Backup | A05:2021 – Security Misconfiguration | Medium | ✅ Completed |
+| 06 | Easter Egg | Hidden Resource Discovery | Informational | ✅ Completed |
+
+## Summary of Findings
+
+###  SQL Injection
+- Tested the login functionality using a SQL Injection payload.
+- Demonstrated how improper input validation can affect authentication.
+- **Risk:** High
+
+###  Admin Registration
+- Successfully completed the Admin Registration challenge.
+- Demonstrated a Broken Access Control scenario involving elevated privileges.
+- **Risk:** High
+
+###  Misplaced Signature File
+- Identified a publicly accessible signature file.
+- Demonstrated exposure of sensitive resources due to insecure configuration.
+- **Risk:** Medium
+
+###  Poison Null Byte
+- Demonstrated improper file validation using crafted input.
+- Highlighted the importance of secure file handling.
+- **Risk:** Medium
+
+###  Forgotten Sales Backup
+- Located an exposed backup file containing sensitive information.
+- Demonstrated Information Disclosure caused by insecure deployment practices.
+- **Risk:** Medium
+
+###  Easter Egg
+- Successfully discovered a hidden application resource.
+- Demonstrated resource enumeration techniques in a controlled environment.
+- **Risk:** Informational
