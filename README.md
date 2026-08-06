@@ -1,6 +1,6 @@
-# 🛡️ OWASP Juice Shop Vulnerability Assessment
+# OWASP Juice Shop Vulnerability Assessment
 
-## 📖 Project Overview
+## Project Overview
 
 This project presents a comprehensive **Web Application Vulnerability Assessment and Penetration Testing (VAPT)** conducted on the **OWASP Juice Shop** application. The assessment was performed in a controlled laboratory environment to identify common web application security vulnerabilities and gain hands-on experience with industry-standard penetration testing methodologies.
 
@@ -10,7 +10,7 @@ Throughout this project, manual testing techniques were used to understand how s
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 - Perform a security assessment of the OWASP Juice Shop application.
 - Identify and validate common web application vulnerabilities.
@@ -21,7 +21,7 @@ Throughout this project, manual testing techniques were used to understand how s
 
 ---
 
-# 🔍 Scope of Assessment
+# Scope of Assessment
 
 The assessment included testing multiple functionalities of the OWASP Juice Shop application to identify security weaknesses related to:
 
@@ -34,7 +34,7 @@ The assessment included testing multiple functionalities of the OWASP Juice Shop
 
 ---
 
-# 🛠️ Tools & Technologies Used
+# Tools & Technologies Used
 
 | Tool | Purpose |
 |------|---------|
@@ -47,7 +47,7 @@ The assessment included testing multiple functionalities of the OWASP Juice Shop
 
 ---
 
-# 📊 Assessment Results
+# Assessment Results
 
 The vulnerability assessment successfully identified multiple security issues within the application.
 
@@ -71,7 +71,7 @@ The vulnerability assessment successfully identified multiple security issues wi
 
 ---
 
-# 🛡️ Remediation Recommendations
+# Remediation Recommendations
 
 ### SQL Injection
 - Use parameterized queries (Prepared Statements).
@@ -113,7 +113,7 @@ The vulnerability assessment successfully identified multiple security issues wi
 
 ---
 
-# 🎓 Learning Outcomes
+# Learning Outcomes
 
 This project helped strengthen practical knowledge in:
 
@@ -132,12 +132,12 @@ This project helped strengthen practical knowledge in:
 
 ---
 
-# 📌 Conclusion
+# Conclusion
 
 The assessment successfully demonstrated the identification and validation of multiple web application vulnerabilities within the OWASP Juice Shop environment. The project enhanced practical knowledge of penetration testing methodologies, vulnerability assessment, risk analysis, and professional security reporting. By providing remediation recommendations for each finding, this assessment highlights the importance of secure coding practices, proper access control, and continuous security testing to strengthen the overall security posture of web applications.
 
 ---
 
-# ⚠️ Disclaimer
+# Disclaimer
 
 This project was conducted in a controlled laboratory environment using the intentionally vulnerable OWASP Juice Shop application for educational and ethical learning purposes only. No unauthorized systems or production environments were targeted during this assessment.
